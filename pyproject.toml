@@ -1,0 +1,17 @@
+[project]
+name = "assignment1-basics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "qiongduyuting", email = "2506513334@qq.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+assignment1-basics = "assignment1_basics:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
